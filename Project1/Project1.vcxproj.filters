@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{5936222f-4a1b-42d5-9316-ed1284695a68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\astroid.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="..\Debug\b.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="..\Debug\GameOver.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="..\Debug\plane.bmp">
+      <Filter>Images</Filter>
+    </Image>
   </ItemGroup>
 </Project>
