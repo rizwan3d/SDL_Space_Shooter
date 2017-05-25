@@ -120,10 +120,11 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\Debug\astroid.bmp" />
-    <Image Include="..\Debug\b.bmp" />
-    <Image Include="..\Debug\GameOver.bmp" />
-    <Image Include="..\Debug\plane.bmp" />
+    <Image Include="..\Images\astroid.bmp" />
+    <Image Include="..\Images\b.bmp" />
+    <Image Include="..\Images\background.bmp" />
+    <Image Include="..\Images\GameOver.bmp" />
+    <Image Include="..\Images\plane.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
